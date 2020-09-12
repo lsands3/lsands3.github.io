@@ -49,11 +49,11 @@ body{
 }
 
 .tab button:hover {
-  background-color: #0c0129;
+  background-color: #707070;
 }
 
 .tab button.active {
-  background-color: #0c0129;
+  background-color: #707070;
 }
 
 .tabcontent {
