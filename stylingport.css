@@ -7,7 +7,7 @@ html, body{
 }
 
 body{
-	background-color:#00FFFF;
+	background-color:#0c0129;
 	background-image: url("coding.jpg");
 	background-position: center;
 	background-size: cover;
@@ -27,4 +27,34 @@ body{
 	color: white;
 	font-size: 60pt;
 	font-family: big john;
+}
+.title2{
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 14pt;
+	font-family: serif;
+}
+
+.register{
+	margin: 50px auto;
+	display:block;
+	width:180px;
+	height:50px;
+	border:3px solid white;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	font-family:sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+
+	transition: background-color 1000ms, color 1000ms
+
+}
+.register:hover{
+	background-color: rgba(255,255,255,1);
+	color:#222;
+	cursor:pointer;
+
+	transition: background-color 1000ms, color 1000ms
 }
