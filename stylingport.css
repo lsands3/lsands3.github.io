@@ -58,10 +58,3 @@ body{
 
 	transition: background-color 1000ms, color 1000ms
 }
-.aboutme:click{
-	background-color: rgba(255,255,255,1);
-	color:#222;
-	cursor:pointer;
-
-	transition: background-color 1000ms, color 1000ms
-}
